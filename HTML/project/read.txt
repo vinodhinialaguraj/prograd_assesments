@@ -1,0 +1,1 @@
+my firts git proj using cli

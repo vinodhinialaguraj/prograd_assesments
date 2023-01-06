@@ -1,0 +1,114 @@
+ul li{
+    color: rgb(22, 10, 151);
+    font-size: large;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+h1{
+    color:rgb(158, 7, 158);
+    background-color: burlywood;
+    margin-right: 70%;
+}
+h3{
+    margin-right: 80%;
+    color: white;
+}
+small{
+    text-shadow: 2px 2px 8px yellow;
+    font-style: oblique;
+    color: white;
+}
+h3:hover,small:hover,button:hover{
+    background-color:rgb(255, 255, 22)
+}
+#header{
+    background-color:brown;
+}
+th{
+    background-color: brown;
+}
+tr:nth-child(n) td{
+    background-color: rgb(236, 43, 43);
+}
+*{
+    /*background-color:darkgray;*/
+}
+h2.range{
+    background-color: rgb(255, 251, 0);
+    margin-right: 80%;
+}
+h1.rangeheads{
+    background-color: rgb(255, 221, 0);
+    margin-right: 70%;
+}
+h1.this{
+    background-color: burlywood;
+    margin-right: 70%;
+}
+h1.album{
+    background-color:darksalmon;
+}
+span.highlight{
+    background-color: black;
+    color: white;
+}
+h1.forms{
+    background-color:skyblue;
+    color: white;
+    margin:1px;
+    text-align: center;
+}
+form.forms{
+    margin-left:10rem;
+    margin-right: 20rem;
+    margin-top: 3rem;
+    color: white;
+    border: 1rem solid rgb(221, 21, 131);
+    border-radius: 5%;
+}
+html{
+    background-image: url("1381206.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body.forms{
+    font-size: 32px;
+   /* margin-left:10rem;
+    margin-right: 20rem;*/
+    
+   /* line-height: 2.5rem;*/
+   /* border:1rem solid purple;*/
+}
+button.forms{
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    size: 32px;
+    background-color: green;
+}
+ul.forms{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+    position: sticky;
+    top: 0;
+}
+
+ul.forms li{
+    float: left;
+}
+ul.forms li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.forms li a:hover{
+    background-color: pink;
+}

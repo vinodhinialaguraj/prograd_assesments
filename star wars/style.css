@@ -1,0 +1,30 @@
+.container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+    
+}
+
+.villans,.heros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.padds{
+    padding-left: 100px;
+}
+.pads{
+    padding-right: 100px;
+}
+div.scores h2{
+    padding: 30px;
+    width: 50px;
+    height:20px
+}
+.borders{
+    border: 1px solid black;
+   
+}
+p,h2{
+    text-align: center;
+}

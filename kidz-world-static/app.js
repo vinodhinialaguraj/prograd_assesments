@@ -90,10 +90,10 @@ cartVal.addEventListener("click", function(){
     
     }
     for(var i=0;i<arr.length;i++){
-        txtMsg=txtMsg+arr[i]+" "+totProd[i]+" ";
-       // console.log(arr[i]+" "+totProd[i]);
+       // txtMsg=txtMsg+arr[i]+" "+totProd[i]+" ";
+        console.log(arr[i]+" "+totProd[i]);
     }
-    txtMsg = txtMsg+" and the total cost is "+sum;
-    var win = window.open(`https://wa.me/${num}?text=Hello%20Mr%20${names}%20your%20purchases%20are%20${txtMsg}`, '_blank');
+   // txtMsg = txtMsg+" and the total cost is "+sum;
+   // var win = window.open(`https://wa.me/${num}?text=Hello%20Mr%20${names}%20your%20purchases%20are%20${txtMsg}`, '_blank');
     console.log(txtMsg);
 })
